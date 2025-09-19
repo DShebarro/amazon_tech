@@ -77,19 +77,6 @@ amazon_tech/
 - **White**: `#FFFFFF`
 - **Gray Scale**: `#f8fafc` a `#1e293b`
 
-## 🔧 Personalização
-
-### Cores
-As cores podem ser facilmente alteradas através das variáveis CSS no arquivo `style.css`:
-
-```css
-:root {
-    --primary-dark: #00242E;
-    --primary-accent: #C0FF72;
-    /* ... outras variáveis */
-}
-```
-
 ## 📞 Contato
 
 - **Email**: hello@amazontech.com
