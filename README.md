@@ -63,39 +63,6 @@ amazon_tech/
    # Acesse: http://localhost:8000
    ```
 
-## 🎨 Seções da Landing Page
-
-### 1. **Hero Section**
-- Apresentação principal da empresa
-- Call-to-action para descoberta da história
-
-### 2. **Sobre Nós**
-- Apresentação da equipe (4 membros)
-- História e propósito da empresa
-
-### 3. **Missão, Visão e Valores**
-- Princípios fundamentais da empresa
-- Cards interativos com ícones
-
-### 4. **Análise de Mercado**
-- Vantagens competitivas
-- Estatísticas de performance com barras de progresso
-
-### 5. **Serviços & Audiências**
-- 4 principais serviços oferecidos
-- Processo de trabalho em 4 etapas
-- Audiências-alvo para cada serviço
-
-### 6. **Depoimentos**
-- Carousel com feedbacks de clientes
-- Navegação por botões e dots
-- Auto-play com pausa no hover
-
-### 7. **Footer**
-- Informações de contato
-- Links rápidos
-- Redes sociais
-
 ## 🎯 Equipe
 
 - **Marcelo Reis** - CEO & Diretor Criativo
@@ -110,20 +77,6 @@ amazon_tech/
 - **White**: `#FFFFFF`
 - **Gray Scale**: `#f8fafc` a `#1e293b`
 
-## 📱 Responsividade
-
-O projeto é totalmente responsivo com breakpoints para:
-- **Desktop**: > 768px
-- **Tablet**: 768px - 480px
-- **Mobile**: < 480px
-
-## ⚡ Performance
-
-- **Carregamento otimizado** com preload de fontes
-- **Imagens otimizadas** para web
-- **CSS minificado** e organizado
-- **JavaScript eficiente** sem dependências externas
-
 ## 🔧 Personalização
 
 ### Cores
@@ -136,28 +89,6 @@ As cores podem ser facilmente alteradas através das variáveis CSS no arquivo `
     /* ... outras variáveis */
 }
 ```
-
-### Conteúdo
-- **Textos**: Edite diretamente no `index.html`
-- **Imagens**: Substitua as imagens na pasta `assets/`
-- **Cores e estilos**: Modifique as variáveis CSS
-
-## 📈 Funcionalidades JavaScript
-
-- **Modal de boas-vindas** com animação de entrada
-- **Navegação mobile** com menu hambúrguer
-- **Carousel de depoimentos** com auto-play
-- **Animações de scroll** com Intersection Observer
-- **Contador animado** para estatísticas
-- **Efeitos parallax** no hero section
-
-## 🌐 Compatibilidade
-
-- ✅ Chrome 60+
-- ✅ Firefox 55+
-- ✅ Safari 12+
-- ✅ Edge 79+
-- ✅ Mobile browsers
 
 ## 📞 Contato
 
