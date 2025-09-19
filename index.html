@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Tech - Soluções Audiovisuais e Marketing</title>
+    <meta name="description" content="Amazon Tech - Soluções premium em audiovisual e marketing. Produção de vídeo profissional, campanhas criativas e estratégias de marketing digital inovadoras.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Modal de Boas-vindas -->
+    <div id="welcomeModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="logo-icon">
+                    <img src="./assets/amazon-logo.png" alt="Amazon Tech">
+                </div>
+                <h2>Bem-vindo à Amazon Tech</h2>
+                <p>Seu destino premium para soluções audiovisuais inovadoras e campanhas de marketing de ponta. Vamos dar vida à sua visão.</p>
+                <button id="closeModal" class="btn-primary">Explorar Nosso Trabalho</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5,3 19,12 5,21"></polygon>
+                    </svg> -->
+                    <img src="./assets/amazon-logo.png" alt="Amazon Tech">
+                </div>
+                <span>Amazon Tech</span>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">Sobre Nós</a>
+                <a href="#mission" class="nav-link">Missão & Visão</a>
+                <a href="#market" class="nav-link">Análise de Mercado</a>
+                <a href="#services" class="nav-link">Serviços</a>
+                <a href="#testimonials" class="nav-link">Depoimentos</a>
+            </div>
+
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Amazon <span class="gradient-text">Tech</span></h1>
+            <p>Elevando marcas através de soluções audiovisuais inovadoras e campanhas de marketing estratégicas</p>
+            <button onclick="scrollToSection('about')" class="btn-primary">Descubra Nossa História</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sobre a Amazon Tech</h2>
+                <p>Fundada com paixão por narrativa visual e marketing estratégico, a Amazon Tech reúne profissionais talentosos dedicados a elevar sua marca através de soluções audiovisuais inovadoras.</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Alex Rodriguez">
+                    <h3>Alex Rodriguez</h3>
+                    <p class="role">CEO & Diretor Criativo</p>
+                    <p class="description">Liderando a Amazon Tech com mais de 10 anos de experiência em marketing digital e desenvolvimento de marca.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Sarah Kim">
+                    <h3>Sarah Kim</h3>
+                    <p class="role">Editora Líder de Vídeo</p>
+                    <p class="description">Editora premiada especializada em conteúdo comercial e promocional com expertise em motion graphics.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Marcus Thompson">
+                    <h3>Marcus Thompson</h3>
+                    <p class="role">Videomaker Sênior</p>
+                    <p class="description">Cinematografista profissional com paixão por contar histórias através de conteúdo visual dinâmico.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" alt="Emma Chen">
+                    <h3>Emma Chen</h3>
+                    <p class="role">Designer de Motion Graphics</p>
+                    <p class="description">Especialista criativa em animação 3D e efeitos visuais, dando vida às ideias através de gráficos impressionantes.</p>
+                </div>
+            </div>
+
+            <div class="company-story">
+                <h3>Por que Amazon Tech?</h3>
+                <p>Acreditamos que toda marca tem uma história única que vale a pena contar. Nossa equipe combina expertise técnica com visão criativa para entregar experiências audiovisuais que não apenas capturam atenção, mas geram engajamento significativo com seu público. Do conceito à conclusão, somos seus parceiros dedicados em dar vida a campanhas de marketing excepcionais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Missão, Visão e Valores -->
+    <section id="mission" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossa Base</h2>
+                <p>Os princípios que guiam tudo o que fazemos</p>
+            </div>
+
+            <div class="mvv-grid">
+                <div class="mvv-card">
+                    <div class="mvv-icon orange">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>Missão</h3>
+                    <p>Capacitar empresas com conteúdo audiovisual convincente que gera engajamento, constrói lealdade à marca e entrega resultados mensuráveis no mercado competitivo de hoje.</p>
+                </div>
+
+                <div class="mvv-card">
+                    <div class="mvv-icon yellow">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"></path>
+                            <path d="m21 2-3 3"></path>
+                            <path d="m5 5 5-5"></path>
+                            <path d="m2 2 20 20"></path>
+                            <path d="m4 4 16 16"></path>
+                        </svg>
+                    </div>
+                    <h3>Visão</h3>
+                    <p>Tornar-se o parceiro líder em audiovisual e marketing, conhecido pela inovação, qualidade e experiências transformadoras de marca que ressoam em todas as plataformas.</p>
+                </div>
+
+                <div class="mvv-card">
+                    <div class="mvv-icon slate">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="m22 21-3-3m0 0-3-3m3 3 3-3m-3 3-3 3"></path>
+                        </svg>
+                    </div>
+                    <h3>Valores</h3>
+                    <ul>
+                        <li>• Excelência Criativa</li>
+                        <li>• Parceria com Cliente</li>
+                        <li>• Inovação & Tecnologia</li>
+                        <li>• Integridade & Confiabilidade</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Análise de Mercado -->
+    <section id="market" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Que Nos Diferencia</h2>
+                <p>Entendendo o mercado para entregar valor superior</p>
+            </div>
+
+            <div class="market-content">
+                <div class="market-text">
+                    <h3>Nossa Vantagem Competitiva</h3>
+                    <div class="advantage-list">
+                        <div class="advantage-item">
+                            <div class="advantage-number">1</div>
+                            <div>
+                                <h4>Integração Full-Service</h4>
+                                <p>Diferente dos concorrentes que se especializam em serviços únicos, oferecemos soluções completas de ponta a ponta, do conceito à distribuição.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-number">2</div>
+                            <div>
+                                <h4>Criatividade Orientada por Dados</h4>
+                                <p>Combinamos visão artística com análise de marketing para garantir que cada projeto entregue tanto impacto visual quanto ROI mensurável.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <div class="advantage-number">3</div>
+                            <div>
+                                <h4>Entrega Rápida</h4>
+                                <p>Nossos processos otimizados e equipe dedicada garantem entrega mais rápida sem comprometer a qualidade.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="market-stats">
+                    <h4>Nossa Posição no Mercado</h4>
+                    <div class="stat-item">
+                        <div class="stat-label">
+                            <span>Satisfação do Cliente</span>
+                            <span class="stat-value">98%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 98%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">
+                            <span>Taxa de Entrega</span>
+                            <span class="stat-value">100%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-label">
+                            <span>Retenção de Clientes</span>
+                            <span class="stat-value">92%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 92%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços e Audiências -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Serviços & Audiências</h2>
+                <p>Soluções personalizadas para necessidades diversas de clientes</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"></path>
+                            <circle cx="12" cy="13" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Produção de Vídeo Corporativo</h3>
+                    <p>Vídeos corporativos profissionais, materiais de treinamento e comunicações internas.</p>
+                    <div class="audience-tag">
+                        <strong>AUDIÊNCIAS ALVO</strong>
+                        <span>Corporações, Startups, ONGs</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="5,3 19,12 5,21"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Publicidade Comercial</h3>
+                    <p>Comerciais de alto impacto e conteúdo promocional para máximo alcance de mercado.</p>
+                    <div class="audience-tag">
+                        <strong>AUDIÊNCIAS ALVO</strong>
+                        <span>Varejistas, E-commerce, Prestadores de Serviço</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3>Campanhas de Marketing Digital</h3>
+                    <p>Estratégias de marketing abrangentes com conteúdo visual envolvente.</p>
+                    <div class="audience-tag">
+                        <strong>AUDIÊNCIAS ALVO</strong>
+                        <span>Pequenas Empresas, Grandes Corporações, Agências</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                            <path d="m18.5 2.5 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                        </svg>
+                    </div>
+                    <h3>Pós-Produção & Edição</h3>
+                    <p>Serviços profissionais de edição, correção de cor e motion graphics.</p>
+                    <div class="audience-tag">
+                        <strong>AUDIÊNCIAS ALVO</strong>
+                        <span>Criadores de Conteúdo, Produtoras</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-section">
+                <h3>Nosso Processo</h3>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h4>Descoberta</h4>
+                        <p>Entendendo sua visão e objetivos</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h4>Estratégia</h4>
+                        <p>Desenvolvendo conceitos criativos e cronogramas</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h4>Produção</h4>
+                        <p>Executando com precisão e criatividade</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h4>Entrega</h4>
+                        <p>Conteúdo otimizado pronto para implementação</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Histórias de Sucesso dos Clientes</h2>
+                <p>O que nossos clientes dizem sobre trabalhar com a Amazon Tech</p>
+            </div>
+
+            <div class="testimonial-carousel">
+                <div class="testimonial-container">
+                    <div class="testimonial-slide active" data-slide="0">
+                        <div class="stars">
+                            <span>★★★★★</span>
+                        </div>
+                        <blockquote>
+                            "A Amazon Tech transformou nossa presença de marca com sua produção de vídeo excepcional. A atenção aos detalhes da equipe e visão criativa superaram nossas expectativas."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <p class="author-name">Jennifer Walsh</p>
+                            <p class="author-company">TechFlow Solutions</p>
+                            <p class="project-name">Campanha de Rebranding Corporativo</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide" data-slide="1">
+                        <div class="stars">
+                            <span>★★★★★</span>
+                        </div>
+                        <blockquote>
+                            "Trabalhar com a Amazon Tech foi um divisor de águas para nossas campanhas de clientes. Sua abordagem estratégica e qualidade de execução são incomparáveis na indústria."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <p class="author-name">David Park</p>
+                            <p class="author-company">Innovate Marketing Group</p>
+                            <p class="project-name">Campanha Publicitária Multi-Plataforma</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide" data-slide="2">
+                        <div class="stars">
+                            <span>★★★★★</span>
+                        </div>
+                        <blockquote>
+                            "O vídeo promocional que a Amazon Tech criou para nossa campanha ambiental alcançou mais de 2M de visualizações e aumentou significativamente o engajamento dos doadores."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <p class="author-name">Lisa Martinez</p>
+                            <p class="author-company">Green Earth Initiative</p>
+                            <p class="project-name">Campanha de Conscientização Ambiental</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev" id="prevBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15,18 9,12 15,6"></polyline>
+                    </svg>
+                </button>
+                <button class="carousel-btn next" id="nextBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9,18 15,12 9,6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="carousel-dots">
+                    <button class="dot active" data-slide="0"></button>
+                    <button class="dot" data-slide="1"></button>
+                    <button class="dot" data-slide="2"></button>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <p>Projetos Concluídos</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <p>Clientes Satisfeitos</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5</div>
+                    <p>Anos de Experiência</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <img src="./assets/amazon_logo.jpg" alt="Amazon Tech">
+                        </div>
+                        <span>Amazon Tech</span>
+                    </div>
+                    <p>Elevando marcas através de soluções audiovisuais inovadoras e campanhas de marketing estratégicas.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <div class="footer-links">
+                        <a href="#about">Sobre Nós</a>
+                        <a href="#mission">Missão & Visão</a>
+                        <a href="#services">Serviços</a>
+                        <a href="#testimonials">Depoimentos</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>hello@amazontech.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <span>+55 (11) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>São Paulo, SP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 Amazon Tech. Todos os direitos reservados. Criado com paixão pela excelência visual.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
